@@ -1,3 +1,11 @@
+body {
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1;
+}
 .navbar {
     position: relative; 
     display:flex;
@@ -23,6 +31,7 @@
      margin: 40px auto 0px auto;
      padding-bottom: 0px;
      border: solid #090433;
+     background: #cccccc;
  }
 
  #main-header {
@@ -49,5 +58,8 @@
      background: #666666;
      border-top: 8px solid #4aaaa5;
      height: 50px;
-    width: 100%;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+
  }
