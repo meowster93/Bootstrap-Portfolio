@@ -69,3 +69,8 @@ body {
  }
 
  /*portfolio stuff*/
+ 
+ .card-body {
+     height: 50%;
+     width: 75%;
+ }
