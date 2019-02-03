@@ -6,6 +6,9 @@ body {
     position: relative;
     z-index: 1;
 }
+
+/*about me section*/
+
 .navbar {
     position: relative; 
     display:flex;
@@ -25,7 +28,7 @@ body {
  }
 
  #index {
-     width: 1050px;
+     width: 950px;
      text-align: left;
      position: static;
      margin: 40px auto 0px auto;
@@ -47,6 +50,8 @@ body {
  #mypic
  {
      transform: rotate(270deg);
+     margin: 19%;
+     margin-left: -24%;
  }
 
  footer {
@@ -61,5 +66,6 @@ body {
      width: 100%;
      position: fixed;
      bottom: 0;
-
  }
+
+ /*portfolio stuff*/
