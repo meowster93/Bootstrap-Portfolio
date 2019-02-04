@@ -5,6 +5,9 @@ body {
     background-repeat: repeat;
     position: relative;
     z-index: 1;
+    color: black;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: auto;
 }
 
 /*about me section*/
@@ -147,3 +150,5 @@ body {
  .form-area {
      padding: 1.5%;
  }
+
+ 
