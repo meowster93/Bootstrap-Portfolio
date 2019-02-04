@@ -28,19 +28,20 @@ body {
  }
 
  #index {
-     width: 950px;
+     width: auto;
      text-align: left;
      position: static;
-     margin: 40px auto 0px auto;
-     padding-bottom: 0px;
+     margin: 3.5%;
      border: solid #090433;
      background: #cccccc;
+     margin-top: -1.5%;
+     margin-bottom: 6.5%;
  }
 
  #main-header {
-     background: white;
-     color: #4aaaa5;
-     padding-left: 20px;
+     background: #4aaaa5;
+     color: #ffffff;
+     padding-left: 1.5%;
  }
 
  #biostuff {
@@ -50,19 +51,20 @@ body {
  #mypic
  {
      transform: rotate(270deg);
-     margin: 19%;
-     margin-left: -24%;
+     margin: 25%;
+     margin-left: -10%;
+     margin-bottom: 30%;
  }
 
  footer {
-     padding: 30px 0;
+     padding: 1.5%;
      clear: both;
      font-size: 12px;
      color: #cccccc;
      text-align: center;
      background: #666666;
      border-top: 8px solid #4aaaa5;
-     height: 50px;
+     height: 10.5%;
      width: 100%;
      position: fixed;
      bottom: 0;
@@ -70,7 +72,33 @@ body {
 
  /*portfolio stuff*/
  
- .card-body {
-     height: 50%;
-     width: 75%;
+ #portfolio {
+    width: auto;
+    position: static;
+    background: #cccccc;
+    padding: 2%;
+    margin: 10%;
+    margin-top: 1.5%;
+ }
+
+ #hangman {
+     float: left;
+ }
+
+ #rpg {
+     float: left;
+ }
+
+ /*contact page stuff*/
+
+ #contact {
+     clear: both;
+     width: auto;
+     height: auto;
+     position: static;
+     background: #cccccc;
+     color: black;
+     margin: 5%;
+     padding: 2%;
+     margin-bottom: 10%;
  }
