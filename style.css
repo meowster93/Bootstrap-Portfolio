@@ -38,10 +38,15 @@ body {
      margin-bottom: 6.5%;
  }
 
- #main-header {
+ #about-me-header {
      background: #4aaaa5;
      color: #ffffff;
+     position: static;
      padding-left: 1.5%;
+     height: 40%;
+     width: 20%;
+     margin: 1.5%;
+     padding-bottom: 0%;
  }
 
  #biostuff {
@@ -74,6 +79,7 @@ body {
  
  #portfolio {
     width: auto;
+    height: auto;
     position: static;
     background: #cccccc;
     padding: 2%;
@@ -81,15 +87,51 @@ body {
     margin-top: 1.5%;
  }
 
+ #portfolio-header {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: static;
+    margin-top: -1.5%;
+    padding: 0.5%;
+    width: 18%;
+ }
+
  #hangman {
      float: left;
+     margin: 1.5%;
  }
 
  #rpg {
      float: left;
+     margin: 1.5%;
+ }
+
+ #rps {
+     float: left;
+     margin: 1.5%;
+ }
+
+ #trivia {
+     float: left;
+     margin: 1.5%;
+ }
+ 
+ #rutgers {
+     float: left;
+     margin: 1.5%;
  }
 
  /*contact page stuff*/
+
+ #contact-header {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: static;
+    margin-top: -1.5%;
+    padding: 0.5%;
+    width: 18%;
+    margin-left: -1.5%;
+ }
 
  #contact {
      clear: both;
@@ -101,4 +143,8 @@ body {
      margin: 5%;
      padding: 2%;
      margin-bottom: 10%;
+ }
+
+ .form-area {
+     padding: 1.5%;
  }
